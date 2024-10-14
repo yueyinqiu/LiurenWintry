@@ -1,0 +1,13 @@
+﻿{
+    "name": "冬日六爻",
+    "start_url": "./",
+    "display": "browser",
+    "icons":
+    [
+        {
+            "src": "icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+<FluentLayout>
+    <FluentHeader>
+        冬日六爻
+    </FluentHeader>
+    <FluentStack Class="main" Orientation="Orientation.Vertical" Width="100%">
+        <FluentBodyContent Class="body-content">
+            <div class="content">
+                <ErrorBoundary>
+                    <ChildContent>
+                        @Body
+                    </ChildContent>
+                    <ErrorContent Context="ex">
+                        <ErrorBoundaryContent Exception="ex"></ErrorBoundaryContent>
+                    </ErrorContent>
+                </ErrorBoundary>
+            </div>
+        </FluentBodyContent>
+    </FluentStack>
+</FluentLayout>
